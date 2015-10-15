@@ -1,0 +1,47 @@
+.bordered {
+	border: 1px solid blue;
+}
+
+nav > ul > li {
+	display: inline;
+	margin-right: 35px;
+}
+
+.disabled {
+	color: gray;
+}
+
+li > a > span.disabled  {
+	color: purple;
+}
+
+div > a > span > span.disabled  {
+	color: purple;
+}
+
+li > a > div > span.disabled  {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.parent > div > div {
+	color: red;
+}
+
+.parent > div > h4 {
+	background-color: red;
+}
+
+.parent > div {
+	color: blue;
+}
+
+/* despite my best efforts, couldn't figure out how to make only the sibling h4 of the blue element have a background color of blue, without overiding the current red background :(*/
+
+.grandparent > h4 {
+	border: 1px solid black;
+}
+/* can't remember syntax for rounded corners! I know you can control it with percentages, but I can't remember where it goes!
